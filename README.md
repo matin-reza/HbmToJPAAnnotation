@@ -8,7 +8,7 @@ How it is run.
 2- Redirect where the jar file is and run the following command:
 
 
-java -cp hbmToAnnotation.jar; hbmToJPAAnnotation.impl.MainClass [HbmXMLFilesPath] [outputPath] [schema]
+java -cp hbmToAnnotation-full.jar; hbmToJPAAnnotation.impl.MainClass [HbmXMLFilesPath] [outputPath] [schema]
 
 
 [HbmXMLFilesPath]: it contains the path of Hbm xml files.
@@ -21,3 +21,6 @@ java -cp hbmToAnnotation.jar; hbmToJPAAnnotation.impl.MainClass [HbmXMLFilesPath
 
 
 For example:
+
+java -cp hbmToAnnotation-full.jar; hbmToJPAAnnotation.impl.MainClass directory1\directory2 jpaoutput\\
+
