@@ -24,3 +24,9 @@ For example:
 
 java -cp hbmToAnnotation-full.jar; hbmToJPAAnnotation.impl.MainClass directory1\directory2 jpaoutput\\
 
+
+
+Note: if the application can not convert each Hbm file to JPA java class, it is shown in the console.
+
+
+and this app does not support one-to-one property.
